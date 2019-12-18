@@ -1,5 +1,4 @@
- 
-FROM python:3.7-slim
+FROM python:3.6.9-stretch
 
 # Copy the contents of the current directory inside the docker image
 ADD . /app
