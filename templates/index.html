@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset=utf-8>
+	<title>ReciclAPI</title>
+	<link rel="stylesheet" href="../static/styles.css">
+</head>
+	
+<body>
+	<img src="../static/img/reciclapi_logo.png" width="400"/> 
+	<h2>Upload a picture of your waste and guess where you should recycle it!</h2> 
+
+	<div class="container">
+		<div class="row">
+		  <div class="col">
+	
+			<form action="/upload" method="post" enctype="multipart/form-data">
+				<input type="file" name="upload" />
+				<input type="submit" value="Start upload" />
+			</form>
+	
+		  </div>
+		</div>
+	</div>
+
+</body>
+
+</html>
